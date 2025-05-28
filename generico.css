@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+background-color: rgb(0, 0, 0);
+display: flex;
+justify-content: space-between;
+padding: 25px 10px 25px 25px;
+color: white;
+}
+
+
+.texto-degrade{
+    text-transform: uppercase;
+    background: linear-gradient(45deg,  rgb(255, 231, 113),rgb(255, 255, 255) ,rgb(255, 234, 130) );
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+@keyframes degrade{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+    
+
+}

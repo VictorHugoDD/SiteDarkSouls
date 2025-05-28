@@ -1,0 +1,30 @@
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+  font-family: "Merriweather", serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Cinzel", serif;
+}
+
+nav a{
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  text-decoration: solid;
+}
+
