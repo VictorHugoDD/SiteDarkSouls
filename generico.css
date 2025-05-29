@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    width: fit-content;
 }
 
 
@@ -12,6 +13,7 @@ align-items: center;
 padding: 25px 100px 25px 25px;
 color: white;
 text-align: center;
+width: 100%;
 }
 header nav a{
 justify-content: space-between;
@@ -54,4 +56,10 @@ header nav a:hover{
     }
     
 
+}
+@media(max-width: 450px){
+    header {
+        padding: 30px 10px 30px 20px;
+
+    }
 }
