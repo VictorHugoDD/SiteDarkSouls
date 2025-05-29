@@ -16,10 +16,17 @@
 
 *{
   font-family: "Merriweather", serif;
+  color: white;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: "Cinzel", serif;
+    text-transform: uppercase;
+    background: linear-gradient(45deg,  rgb(255, 231, 113),rgb(255, 255, 255) ,rgb(255, 234, 130) );
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 nav a{
