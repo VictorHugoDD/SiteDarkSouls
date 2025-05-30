@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    width: fit-content;
-    text-align: center;
 }
 
 
@@ -58,14 +56,13 @@ header nav a:hover{
     
 
 }
-@media(max-width: 450px){
-    header {
-        padding: 30px 10px 30px 20px;
-
-    }
-}
-body{
+main{
     align-items: center;
+    text-align: center;
     padding: 25px 40px 20px 40px;
     background-color:rgb(11, 11, 12);
+}
+
+.tituloSlide{
+    text-align: left;
 }
