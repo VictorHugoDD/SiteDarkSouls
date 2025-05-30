@@ -10,3 +10,16 @@
     }
 }
 
+@media(min-width: 768px){
+    #carouselExampleInterval{
+    width: 100%;
+    border-radius: 20px;
+    }
+
+    .carousel-inner{
+    width: 70%;             /* 70% da largura do container */
+    margin: 0 auto;         /* Centraliza horizontalmente */
+    padding: 15px;        
+    }
+
+}

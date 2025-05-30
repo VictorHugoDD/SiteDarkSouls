@@ -56,13 +56,34 @@ header nav a:hover{
     
 
 }
+
+ #carouselExampleInterval img{
+    border-radius: 20px;
+    }
+
 main{
     align-items: center;
     text-align: center;
-    padding: 25px 40px 20px 40px;
+    padding: 25px 40px 40px 40px;
     background-color:rgb(11, 11, 12);
 }
 
 .tituloSlide{
     text-align: left;
+}
+
+#history{
+    padding: 100px 25px 5px 25px;
+    p{
+        line-height: 30px;
+        padding-top: 50px;
+        text-align: unset;
+    }
+    h1{
+        padding: 25px;
+    }
+    .figuras {
+        display: flex;
+        justify-content: space-between;
+    }
 }
