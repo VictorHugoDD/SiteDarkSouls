@@ -22,6 +22,9 @@
             min-width: unset;
         }
     }
+    #copyright{
+        width: 100%;
+    }
 }
 
 /*computer*/
@@ -36,5 +39,25 @@
     margin: 0 auto;         /* Centraliza horizontalmente */
     padding: 15px;        
     }
+
+    #part2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#part2 .lado {
+    display: flex;
+    flex-direction: row-reverse; /* Inverte a ordem para imagem à direita */
+    gap: 30px;
+    align-items: flex-start;
+}
+
+#part2 .lado img {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
 
 }
