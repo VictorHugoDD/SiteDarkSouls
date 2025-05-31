@@ -1,4 +1,5 @@
 
+/*mobile*/
 @media(max-width: 450px){
     *{
     width: fit-content;
@@ -8,8 +9,22 @@
         padding: 30px 10px 30px 20px;
 
     }
+    
+  .carousel-inner {
+    width: 95%;
+    margin: 0 auto;
+  }
+   #history .figuras {
+        gap: 20px;
+        
+        figure {
+            flex: 0 1 100%;
+            min-width: unset;
+        }
+    }
 }
 
+/*computer*/
 @media(min-width: 768px){
     #carouselExampleInterval{
     width: 100%;

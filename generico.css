@@ -56,16 +56,41 @@ header nav a:hover{
     
 
 }
+#carouselExampleInterval {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
  #carouselExampleInterval img{
     border-radius: 20px;
     }
+/* Transição suave para os itens do carrossel */
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+
+/* Remove a altura fixa das imagens e ajusta o aspect ratio */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Mantém proporção consistente */
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 
 main{
     align-items: center;
     text-align: center;
     padding: 25px 40px 40px 40px;
-    background-color:rgb(11, 11, 12);
+    background-image: linear-gradient(to bottom,  rgb(0, 0, 0),rgb(15, 15, 15) ,rgb(25, 25, 25),rgb(35, 35, 35),rgb(45, 45, 45));
 }
 
 .tituloSlide{
@@ -84,6 +109,35 @@ main{
     }
     .figuras {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin: 40px 0;
+        
+        figure {
+            flex: 0 1 calc(50% - 30px);
+            display: flex;
+            flex-direction: column;
+            min-width: 250px;
+            align-items: center;
+            text-align: center;
+            min-width: 0;
+            
+            img {
+                border: thick double rgb(255, 234, 130);
+                border-radius: 50px;
+                width: 100%;
+                height: auto;
+                max-width: 300px;
+                transition: transform 0.3s ease;
+            }
+            
+            img:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+    img{
+        border-radius: 20px;
     }
 }
